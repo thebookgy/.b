@@ -7,21 +7,21 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.apibook.testnavigation"
+        applicationId "com.meet.btoy"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-    sourceSets {
-        test {
-            resources.srcDirs += ['src/test/resources']
-        }
-        androidTest {
-            resources.srcDirs += ['src/androidTest/resources']
-        }
-    }
+//    sourceSets {
+//        test {
+//            resources.srcDirs += ['src/test/resources']
+//        }
+//        androidTest {
+//            resources.srcDirs += ['src/androidTest/resources']
+//        }
+//    }
     buildTypes {
         release {
             minifyEnabled false
