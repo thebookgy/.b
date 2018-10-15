@@ -18,9 +18,7 @@ abstract class BaseActivity : AppCompatActivity() {
         init()
     }
 
-    private fun init() {
-
-    }
+    abstract fun init()
 
     fun hideKeyboard() {
         val view = this.currentFocus
